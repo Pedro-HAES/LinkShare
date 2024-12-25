@@ -1,0 +1,69 @@
+:root{
+    --cor-de-fundo: #111111;
+    --cor-do-card: #2b2a2a;
+}
+
+body{
+    background-color: var(--cor-de-fundo);
+    color: var(--cor-de-fundo);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.cartao{
+    background-color: var(--cor-do-card);
+    width: 25%;
+    padding: 20px;
+    text-align: center;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.links {
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
+    margin: 30px 0;
+}
+
+.links a {
+    display: block;
+    padding: 15px ;
+    background-color: #373d3c;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s, background-color 0.3s;
+    width: 80%;
+    text-decoration-line: none;
+    color: white;
+}
+
+.imagemPerfil{
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin: 10px;
+}
+
+.links a:hover{
+    background-color: #0bd6a0; 
+    transform: scale(1.1); 
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.3);
+}
+
+.nome{
+    font-size: 30px;
+    color: white;
+}
+.cep{
+    font-size: 25px;
+    color: #0bd6a0;
+}
+.status{
+    color: white;
+    font-size: 25px;
+}
