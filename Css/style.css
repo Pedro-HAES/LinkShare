@@ -67,3 +67,52 @@ body{
     color: white;
     font-size: 25px;
 }
+
+
+@media screen and (max-width: 768px) {
+    .cartao {
+        width: 90%; 
+        padding: 15px; 
+    }
+    .links a {
+        width: 90%; 
+        padding: 12px 15px; 
+    }
+    .imagemPerfil {
+        width: 150px;
+        height: 150px;
+    }
+    .nome {
+        font-size: 24px; 
+    }
+    .cep {
+        font-size: 20px; 
+    }
+    .status {
+        font-size: 20px; 
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .cartao {
+        width: 95%; 
+        padding: 10px; 
+    }
+    .links a {
+        width: 95%;
+        padding: 10px 12px;
+    }
+    .imagemPerfil {
+        width: 120px;
+        height: 120px;
+    }
+    .nome {
+        font-size: 20px; 
+    }
+    .cep {
+        font-size: 18px;
+    }
+    .status {
+        font-size: 18px;
+    }
+}
